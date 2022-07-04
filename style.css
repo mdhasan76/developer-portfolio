@@ -46,3 +46,29 @@ body {
 .main-div .right img {
     width: 80%;
 }
+
+/* second section*/
+.dream-big-sec {
+    padding: 80px 0;
+}
+
+.dream-big {
+    display: flex;
+}
+
+.secondimg {
+    width: 50%;
+}
+
+.secondimg img {
+    width: 100%;
+}
+
+.second-text {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.second-text h1 {
+    font-size: 50px;
+}
