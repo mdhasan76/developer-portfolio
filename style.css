@@ -50,6 +50,9 @@ body {
 /* second section*/
 .dream-big-sec {
     padding: 80px 0;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .dream-big {
@@ -71,4 +74,46 @@ body {
 
 .second-text h1 {
     font-size: 50px;
+}
+
+/* Experieces section*/
+.experience-sec {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experience-sec h1 {
+    font-size: 37px;
+}
+
+.main-ex {
+    display: flex;
+    /* padding: 50px 40px; */
+}
+
+.left-ex {
+    width: 40%;
+    padding: 30px;
+    box-shadow: 10px 10px 40px #999898;
+    margin: 0 5%;
+    border-left: 7px solid #ff392f;
+}
+
+.right-ex {
+    width: 40%;
+    padding: 30px;
+    box-shadow: 10px 10px 40px #999898;
+    margin: 0 5%;
+    border-left: 7px solid #2124e8;
+}
+
+.yellow-col {
+    color: rgb(217, 143, 59);
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: gray;
 }
